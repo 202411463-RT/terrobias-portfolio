@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 export default function Header() {
   return (
     <header style={styles.header}>
-      <h2 style={styles.logo}>MyPortfolio</h2>
+      <h2 style={styles.logo}>My Portfolio</h2>
       <nav style={styles.nav}>
         <NavLink to="/" style={styles.link}>Home</NavLink>
         <NavLink to="/about" style={styles.link}>About</NavLink>
@@ -23,7 +23,7 @@ const styles = {
     borderBottom: '1px solid #b8b15b',
     backgroundColor: '#2b2c53'
   },
-  logo: { margin: 0 },
+  logo: { margin: 0, color: '#fef3c7' },
   nav: { display: 'flex', gap: '1.5rem' },
   link: { textDecoration: 'none', color: '#e0da85', fontWeight: 'bold' }
 };

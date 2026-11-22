@@ -1,3 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
 :root {
   --text: #e2e0e6;
   --text-h: #08060d;
@@ -50,13 +59,12 @@
   }
 }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #1f1e1f;
-  color: #c2b154;
-  margin: 0;
-}
-  margin: 0;
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #73482e;
+    color: #f8fafc;
+    margin: 0;
+  }
 }
 
 #root {
