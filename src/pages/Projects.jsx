@@ -2,8 +2,8 @@ export default function Projects() {
   const projectList = [
     {
       id: 1,
-      title: 'Task Management App',
-      description: 'A simple todo list app built with React and LocalStorage.',
+      title: 'Book A Ride',
+      description: 'A simple tracking and booking for trycicle via online payment.',
       image: 'src/assets/taskmanagement.jpg'
     },
     {
