@@ -1,37 +1,23 @@
 export default function Projects() {
   const projectList = [
-    {
-      id: 1,
-      title: 'Book A Ride',
-<<<<<<< HEAD
-      description: 'A simple tracking and booking for trycicle via online payment.',
-=======
-      description: 'A simple booking ride for student via online.',
->>>>>>> 746f55e (Fix portfolio structure and build configuration)
-      image: 'src/assets/taskmanagement.jpg'
-    },
-    {
-      id: 2,
-<<<<<<< HEAD
-      title: 'Quick XOXO Game!',
-      description: 'Take turns placing X's and O's on a 3x3 grid. First to get three in a row wins!.',
-=======
-      title: 'Inventory Management System',
-      description: 'An app that monitor and manage inventory.',
->>>>>>> 746f55e (Fix portfolio structure and build configuration)
-      image: 'src/assets/store.jpg'
-    },
-    {
-      id: 3,
-<<<<<<< HEAD
-      title: 'Inventory Management System of Gordon College',
-      description: 'An app that monitor and manage stocks.',
-=======
-      title: 'Quick XOXO',
-      description: 'A simple XOXO game.',
->>>>>>> 746f55e (Fix portfolio structure and build configuration)
-      image: 'src/assets/weather.jpg'
-    }
+      {
+  id: 1,
+  title: 'Book A Ride',
+  description: 'A simple tracking and booking for tricycle via online payment.',
+  image: 'src/assets/taskmanagement.jpg'
+},
+      {
+  id: 2,
+  title: 'Inventory Management System',
+  description: 'An app that monitor and manage inventory.',
+  image: 'src/assets/store.jpg'
+},
+      {
+    id: 3,
+    title: 'Inventory Management System of Gordon College',
+    description: 'An app that monitor and manage stocks.',
+    image: 'src/assets/weather.jpg'
+  }
   ];
 
   return (
