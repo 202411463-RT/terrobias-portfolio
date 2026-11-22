@@ -8,14 +8,14 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: 'E-commerce UI Draft',
-      description: 'A basic store layout showcasing product grids and responsive design.',
+      title: 'Quick XOXO Game!',
+      description: 'Take turns placing X's and O's on a 3x3 grid. First to get three in a row wins!.',
       image: 'src/assets/store.jpg'
     },
     {
       id: 3,
-      title: 'Weather Forecast App',
-      description: 'An app that fetches live weather updates from an external API.',
+      title: 'Inventory Management System of Gordon College',
+      description: 'An app that monitor and manage stocks.',
       image: 'src/assets/weather.jpg'
     }
   ];
